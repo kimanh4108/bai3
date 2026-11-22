@@ -1,0 +1,13 @@
+.hh-box{
+    width: 200px; height: 280px; border: 1px solid blue;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+}
+.hh-box-price{position: absolute; left: 5px; bottom: 5px; color: silver; font-weight: bolder;}
+.hh-box-name{position: absolute; left: 0; top: -25px; width: inherit; color: brown; font-weight: bolder;}
+.hh-box-icons{position: absolute; right: 0; bottom: 0; width: 30px;}
+.hh-box-new{position: absolute; right: 0; top: 0; width: 70px;}
+.hh-box-img{width: 80%;}
+.hh-box:hover{border-radius: 10px; box-shadow: 0 0 7px red;}
